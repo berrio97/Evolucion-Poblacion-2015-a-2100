@@ -1,0 +1,45 @@
+/*ALVARO BERRIO GALINDO*/
+#body{
+  width:1200px;
+}
+#graph{
+  position:absolute;
+}
+
+#father{
+  position: relative;
+  float:right;
+  width:80px;
+  height:230px;
+  margin-top:130px;
+  margin-right: 300px;
+}
+.label{
+  width:80px;
+  border-radius:5px;
+  background-color: #CEF6D8;
+}
+
+#years{
+  margin-left:10px;
+  width:60px;
+  height:100px;
+}
+
+#continents{
+  margin-left:10px;
+  margin-top:50px;
+
+}
+
+.tooltip.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 170px;
+    height: 45px;
+    padding: 8px;
+    font: 13px sans-serif;
+    background: #CEF6D8;
+    border-radius: 5px;
+    pointer-events: none;
+}
